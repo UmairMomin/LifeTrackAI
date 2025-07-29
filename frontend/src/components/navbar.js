@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <AppBar position="static" className="bg-blue-500">
+    <AppBar position="static" className="bg-blue-700">
       <Toolbar className="flex justify-between">
         <Box className="flex items-center space-x-2">
           <Typography variant="h6" component="div">
