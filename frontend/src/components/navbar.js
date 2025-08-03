@@ -17,6 +17,7 @@ export default function Navbar() {
           <Link href="/insights"><Button color="inherit">Insights</Button></Link>
           <Link href="/login"><Button color="inherit">Login</Button></Link>
         </Box>
+        
       </Toolbar>
     </AppBar>
   );
