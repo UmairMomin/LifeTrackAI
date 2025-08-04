@@ -6,7 +6,7 @@ from app.database import create_tables
 
 app = FastAPI(title="LifeTrack AI")
 
-# Route registration
+# Routes
 app.include_router(task.router)
 app.include_router(ping.router)
 app.include_router(ai.router)

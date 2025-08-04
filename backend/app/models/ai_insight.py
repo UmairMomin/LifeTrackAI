@@ -7,8 +7,9 @@ class AIInsight(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     suggestion = Column(Text)
-    priority_score = Column(Integer)  # e.g., AI-assigned priority
+    priority_score = Column(Integer)
     summary = Column(Text)
 
     task_id = Column(Integer, ForeignKey("tasks.id"))
     task = relationship("Task", back_populates="ai_insight")
+
